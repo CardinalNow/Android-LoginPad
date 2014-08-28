@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue" >
+
+    <TextView
+        android:id="@+id/activity_login_access_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_login_enter_access_code"
+        android:textColor="@color/white"
+        android:textSize="@dimen/twenty_dp"
+        android:tag="Medium"
+        android:gravity="center"
+        android:paddingTop="@dimen/thirty_dp"
+        android:paddingBottom="@dimen/ten_dp"/>
+
+    <RelativeLayout
+        android:id="@+id/login_text_button_layout"
+        android:layout_below="@id/activity_login_access_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/activity_login_access_code_value"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/login_pad_edit_text"
+            android:textColor="@color/blue"
+            android:layout_width="@dimen/one_hundred_fourty_five_dp"
+            android:layout_height="@dimen/thirty_dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:maxLength="6"/>
+
+        <TextView
+            android:id="@+id/activity_login_access_code_login"
+            android:layout_toRightOf="@id/activity_login_access_code_value"
+            android:layout_alignBottom="@id/activity_login_access_code_value"
+            android:layout_alignTop="@id/activity_login_access_code_value"
+            android:layout_height="@dimen/thirty_dp"
+            android:layout_width="wrap_content"
+            android:paddingLeft="@dimen/ten_dp"
+            android:paddingRight="@dimen/ten_dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:background="@drawable/login_pad_login_button"
+            android:text="@string/activity_login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fourteen_sp"/>
+
+        <ProgressBar
+            android:id="@+id/login_button_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+			android:paddingLeft="@dimen/two_dp"
+			android:paddingRight="@dimen/two_dp"
+            android:layout_alignBottom="@id/activity_login_access_code_login"
+            android:layout_alignTop="@id/activity_login_access_code_login"
+            android:layout_alignLeft="@id/activity_login_access_code_login"
+            android:layout_alignRight="@id/activity_login_access_code_login" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/activity_login_pad_table_layout"
+        android:layout_below="@id/login_text_button_layout"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:paddingTop="@dimen/twenty_dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/eight_dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/one_button"
+                android:layout_width="@dimen/seventy_dp"
+                android:layout_height="@dimen/seventy_dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/eight_dp"
+                android:layout_marginRight="@dimen/eight_dp"
+                android:background="@drawable/login_pad_circle"
+                android:textSize="@dimen/thirty_two_sp"
+                android:textColor="@color/white"
+                android:text="@string/one"
+                android:tag="Thin" />
+
+            <TextView
+                android:id="@+id/two_button"
+                android:layout_width="@dimen/seventy_dp"
+                android:layout_height="@dimen/seventy_dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/eight_dp"
+                android:layout_marginRight="@dimen/eight_dp"
+                android:background="@drawable/login_pad_circle"
+                android:textSize="@dimen/thirty_two_sp"
+                android:textColor="@color/white"
+                android:text="@string/two"
+                android:tag="Thin"/>
+
+            <TextView
+                android:id="@+id/three_button"
+                android:layout_width="@dimen/seventy_dp"
+                android:layout_height="@dimen/seventy_dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/eight_dp"
+                android:layout_marginRight="@dimen/eight_dp"
+                android:background="@drawable/login_pad_circle"
+                android:textSize="@dimen/thirty_two_sp"
+                android:textColor="@color/white"
+                android:text="@string/three"
+                android:tag="Thin"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/eight_dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/four_button"
+                android:layout_width="@dimen/seventy_dp"
+                android:layout_height="@dimen/seventy_dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/eight_dp"
+                android:layout_marginRight="@dimen/eight_dp"
+                android:background="@drawable/login_pad_circle"
+                android:textSize="@dimen/thirty_two_sp"
+                android:textColor="@color/white"
+                android:text="@string/four"
+                android:tag="Thin"/>
+
+            <TextView
+                android:id="@+id/five_button"
+                android:layout_width="@dimen/seventy_dp"
+                android:layout_height="@dimen/seventy_dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/eight_dp"
+                android:layout_marginRight="@dimen/eight_dp"
+                android:background="@drawable/login_pad_circle"
+                android:textSize="@dimen/thirty_two_sp"
+                android:textColor="@color/white"
+                android:text="@string/five"
+                android:tag="Thin"/>
+
+            <TextView
+                android:id="@+id/six_button"
+                android:layout_width="@dimen/seventy_dp"
+                android:layout_height="@dimen/seventy_dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/eight_dp"
+                android:layout_marginRight="@dimen/eight_dp"
+                android:background="@drawable/login_pad_circle"
+                android:textSize="@dimen/thirty_two_sp"
+                android:textColor="@color/white"
+                android:text="@string/six"
+                android:tag="Thin"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/eight_dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/seven_button"
+                android:layout_width="@dimen/seventy_dp"
+                android:layout_height="@dimen/seventy_dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/eight_dp"
+                android:layout_marginRight="@dimen/eight_dp"
+                android:background="@drawable/login_pad_circle"
+                android:textSize="@dimen/thirty_two_sp"
+                android:textColor="@color/white"
+                android:text="@string/seven"
+                android:tag="Thin"/>
+
+            <TextView
+                android:id="@+id/eight_button"
+                android:layout_width="@dimen/seventy_dp"
+                android:layout_height="@dimen/seventy_dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/eight_dp"
+                android:layout_marginRight="@dimen/eight_dp"
+                android:background="@drawable/login_pad_circle"
+                android:textSize="@dimen/thirty_two_sp"
+                android:textColor="@color/white"
+                android:text="@string/eight"
+                android:tag="Thin"/>
+
+            <TextView
+                android:id="@+id/nine_button"
+                android:layout_width="@dimen/seventy_dp"
+                android:layout_height="@dimen/seventy_dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/eight_dp"
+                android:layout_marginRight="@dimen/eight_dp"
+                android:background="@drawable/login_pad_circle"
+                android:textSize="@dimen/thirty_two_sp"
+                android:textColor="@color/white"
+                android:text="@string/nine"
+                android:tag="Thin"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/eight_dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/zero_button"
+                android:layout_width="@dimen/seventy_dp"
+                android:layout_height="@dimen/seventy_dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/eight_dp"
+                android:layout_marginRight="@dimen/eight_dp"
+                android:background="@drawable/login_pad_circle"
+                android:textSize="@dimen/thirty_two_sp"
+                android:textColor="@color/white"
+                android:text="@string/zero"
+                android:tag="Thin"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/activity_login_access_code_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="@dimen/twenty_dp"
+        android:paddingRight="@dimen/twenty_dp"
+        android:text="@string/activity_login_delete"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sixteen_sp"
+        android:tag="Medium"/>
+
+</RelativeLayout>

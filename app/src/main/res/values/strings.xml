@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global -->
+    <string name="app_name">Login Pad</string>
+
+    <!-- Login -->
+    <string name="activity_login_enter_access_code">Enter Access Code</string>
+    <string name="activity_login">Login</string>
+    <string name="activity_login_save_user_num">Save</string>
+    <string name="activity_login_error">Error logging in, check your pin and try again.</string>
+    <string name="activity_login_no_pin">You must type in a Pin #</string>
+    <string name="activity_login_delete">Delete</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
