@@ -1,6 +1,6 @@
 # Login Pad for Android
 
-I created this login pad as a custom solution for a client, so our Android and iOS apps were mirrored as much as possible (I know this is frowned upon in the Android world, but I do my best to give the customer what they want).  It's pretty simple to incorporate so I thought I'd share.
+iOS "like" login pad I created.  It's pretty simple to incorporate so I thought I'd share.
 
 ## Overview
 
