@@ -8,7 +8,7 @@ This pad is similar to the iOS7 lock screen in that the pad circles and numbers 
 
 ![Screen at Launch](https://github.com/kingws/loginPad/blob/master/img/main_screen.png)
 
-![Screen with pin populated](https://github.com/kingws/loginPad/blob/master/main_screen_with_button.png)
+![Screen with pin populated](https://github.com/kingws/loginPad/blob/master/img/main_screen_with_button.png)
 
 ## Bonus Material
 
