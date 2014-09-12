@@ -22,3 +22,8 @@ Nothing too fancy here.  You can simply pull the resources and Java files out of
   - Modify the login_pad_circle_pressed & login_pad_circle_normal.xml color attributes to whatever you'd like
 
 The animiations, crossfading text, and any other magic is happening in the LoginPadActivity.
+
+## Author / License
+
+Copyright Cardinal Solutions 2013. Licensed under the MIT license.
+<img src="https://raw.github.com/CardinalNow/NSURLConnection-Debug/master/logo_footer.png"/>
