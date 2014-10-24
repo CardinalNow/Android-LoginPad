@@ -4,12 +4,10 @@
     android:fillAfter="true" 
     android:fillEnabled="true" >
   
-    <!-- Slide in from left -->
+    <!-- Slide out right -->
     <translate 
         android:fromXDelta="0%" 
         android:toXDelta="+1000%"
-        android:fromYDelta="0%" 
-        android:toYDelta="0%"
         android:duration="200" />
   
 </set>
