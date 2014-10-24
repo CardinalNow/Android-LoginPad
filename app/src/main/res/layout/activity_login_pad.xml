@@ -32,7 +32,7 @@
             android:layout_width="@dimen/one_hundred_fourty_five_dp"
             android:layout_height="@dimen/thirty_dp"
             android:gravity="center"
-            android:inputType="number"
+            android:inputType="numberPassword"
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:maxLength="6"/>
