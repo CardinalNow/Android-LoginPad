@@ -1,6 +1,6 @@
 # Login Pad for Android
 
-iOS "like" login pad I created.  It's pretty simple to incorporate so I thought I'd share.
+iOS "like" login pad.  It's pretty simple to incorporate so I thought I'd share.
 
 ## Overview
 
