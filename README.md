@@ -4,7 +4,7 @@ iOS "like" login pad.  It's pretty simple to incorporate so I thought I'd share.
 
 ## Overview
 
-This pad is similar to the iOS7 lock screen in that the pad circles and numbers swap colors as the user presses them.  Once the required length is met for the login pin, the login button animates in next to the pin field.  If the user chooses to delete a number, the login button animiates back out.  Once the user presses the Login button, an attempt to connect is made.  On successful login you'll simply launch your next activity (although there is some code in the main activity to assist you in storing the pin should you choose to do so).  If the login attempt fails, the pin field is cleared and "pushes" the login button back off screen.
+This pad is similar to the iOS7 lock screen in that the pad circles and numbers swap colors as the user presses them.  Once the required length is met for the login pin, the login button animates in next to the pin field.  If the user chooses to delete a number, the login button animates back out.  Once the user presses the Login button, an attempt to connect is made.  On successful login you'll simply launch your next activity (although there is some code in the main activity to assist you in storing the pin should you choose to do so).  If the login attempt fails, the pin field is cleared and "pushes" the login button back off screen.
 
 ![Screen at Launch](https://github.com/CardinalNow/Android-LoginPad/blob/master/img/main_screen.png)
 
